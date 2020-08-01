@@ -1,0 +1,6 @@
+abbr piton "cd /Users/svt/Nextcloud/Documents/Lessons/Python"
+abbr today "python3 /Users/svt/Nextcloud/Documents/Lessons/Python/create_todays_folder.py"
+abbr alac "vim ~/.config/alacritty/alacritty.yml"
+abbr confish "vim ~/.config/fish/config.fish"
+abbr spi "pmset sleepnow"
+abbr config "/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
