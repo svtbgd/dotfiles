@@ -5,6 +5,7 @@ SETUVAR _fish_abbr_alac:vim\x20\x7e/\x2econfig/alacritty/alacritty\x2eyml
 SETUVAR _fish_abbr_conalac:vim\x20\x7e/\x2econfig/alacritty/alacritty\x2eyml
 SETUVAR _fish_abbr_config:/usr/bin/git\x20\x2d\x2dgit\x2ddir\x3d/Users/svt/dotfiles/\x20\x2d\x2dwork\x2dtree\x3d/Users/svt
 SETUVAR _fish_abbr_confish:vim\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_name:python3\x20/Users/svt/Nextcloud/Documents/Lessons/Python/header_to_name\x2epy
 SETUVAR _fish_abbr_piton:cd\x20/Users/svt/Nextcloud/Documents/Lessons/Python
 SETUVAR _fish_abbr_spi:pmset\x20sleepnow
 SETUVAR _fish_abbr_today:python3\x20/Users/svt/Nextcloud/Documents/Lessons/Python/create_todays_folder\x2epy
