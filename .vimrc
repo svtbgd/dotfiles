@@ -14,4 +14,5 @@ imap hh <Esc>
 set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+" If you open file without sudo but it need privileges
 command Sudo w ! sudo tee %
