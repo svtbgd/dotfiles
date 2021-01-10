@@ -11,3 +11,6 @@ set laststatus=2
 set showmode
 set timeout timeoutlen=150
 imap hh <Esc>
+set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
