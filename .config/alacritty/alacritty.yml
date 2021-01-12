@@ -50,7 +50,7 @@ window:
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background, but no title bar buttons
   #decorations: transparent
-  decorations: full
+  decorations: buttonless
 
   # Startup Mode (changes require restart)
   #
@@ -397,7 +397,8 @@ cursor:
 #
 # Directory the shell is started in. If this is unset, or `None`, the working
 # directory of the parent process will be used.
-working_directory: /Users/svt/Nextcloud/Documents/Lessons
+#working_directory: /Users/svt/Nextcloud/Documents/Lessons
+working_directory: ~
 
 # WinPTY backend (Windows only)
 #
