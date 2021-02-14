@@ -3,7 +3,7 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
@@ -11,7 +11,7 @@
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
-
+   LC_ALL: "ru_RU.UTF-8"
 window:
   # Window dimensions (changes require restart)
   #
@@ -97,10 +97,10 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Fira Code
+    family: Fira code 
 
     # The `style` can be specified to pick a specific face.
-    style: Light 
+   # style: Light 
 
   # Bold font face
   bold:
@@ -140,25 +140,25 @@ font:
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
-  offset:
-    x: 0
-    y: 0
+  #offset:
+   # x: 0
+    #y: 0
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
   # increasing `y` moves the glyph upward.
-  glyph_offset:
-    x: 0
-    y: 0
+ # glyph_offset:
+  #  x: 0
+   # y: 0
 
   # Thin stroke font rendering (macOS only)
   #
   # Thin strokes are suitable for retina displays, but for non-retina screens
   # it is recommended to set `use_thin_strokes` to `false`.
-  use_thin_strokes: true 
+  #use_thin_strokes: true 
 
 # If `true`, bold text is drawn using the bright color variants.
-draw_bold_text_with_bright_colors: false
+#draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
 #colors:
@@ -389,9 +389,9 @@ cursor:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 #shell:
-#  program: /bin/bash
-#  args:
-#    - --login
+ # program: /bin/bash
+ # args:
+ #   - --login
 
 # Startup directory
 #
